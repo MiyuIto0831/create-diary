@@ -44,13 +44,13 @@ createDiaryButton.onclick = () => {
     const anchor = document.createElement('a');
     const hrefValue =
         'https://twitter.com/intent/tweet?button_hashtag=' + 
-        encodeURIComponent('日記つくるさん') + '&ref_src=twsrc%5Etfw';
+        encodeURIComponent('日記かけるさん') + '&ref_src=twsrc%5Etfw';
 
         anchor.setAttribute('href', hrefValue);
         anchor.className = 'twitter-hashtag-button';
 
         anchor.setAttribute('data-text', result);
-        anchor.innerText = 'Tweet #日記つくるさん';
+        anchor.innerText = 'Tweet #日記かけるさん';
 
         tweetDivided.appendChild(anchor);
 
