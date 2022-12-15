@@ -1,0 +1,31 @@
+body {
+    background-color: #f0c0c0;
+    color: #333333;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    font-family: 'UD デジタル 教科書体 NK-R';
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #f06060;
+    border-style: none;
+    height: 52px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'UD デジタル 教科書体 NK-R';
+    border-radius: 0.67em;
+}
+
+input {
+    height: 34px;
+    font-size: 16px;
+    font-family: 'UD デジタル 教科書体 NK-R';
+    background-color: #f0f0f0;
+    color: #f06060;
+    border-radius: 0.67em;
+    padding: 0.5em;          /* 内側の余白量 */
+    outline: none; /*solid 2px #f0f0f0;*/
+}

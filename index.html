@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日記かけるさん</title>
+    <link rel="stylesheet" href="createDiary.css" />
+</head>
+<body>
+    <h1>今日のことを教えてね</h1>
+    <p>日付を入れてね</p>
+    <input type="date" id="date" size="40" maxlength="20"/>
+    <p>よかったことを入れてね</p>
+    <input type="text" placeholder="よかったこと" id="question-good" size="40" maxlength="20" />
+    <p>明日したいことを入れてね</p>
+    <input type="text" placeholder="明日したいこと" id="question-tomorrow" size="40" maxlength="20" />
+    <button id="createDiary">完成</button>
+    <div id="result-area"></div>
+    <div id="tweet-area">
+        
+      </div>
+    <script src="createDiary.js"></script>
+</body>
+</html>
